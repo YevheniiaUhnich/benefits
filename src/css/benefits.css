@@ -1,9 +1,8 @@
 html {
-    scroll-behavior: smooth;
-  }
+        scroll-behavior: smooth;
+      }
 
 .content-benefits {
-    /* background-color: black; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -138,8 +137,16 @@ html {
     max-width: 100%;
     height: auto;
     padding: 0px;
+    
   }
   
+  .li-benefits-one:hover {
+    background-color: rgba(27, 28, 29);
+    background: linear-gradient(145deg, rgba(27, 28, 29), rgba(27, 28, 29));
+    border: 2px solid rgba(27, 28, 29);
+    border-radius: 20px;
+  }
+
   .block-text {
     padding-left: 12px;
   } 
@@ -152,6 +159,13 @@ html {
     height: auto;
     padding: 0px;
   }
+
+  .li-benefits-two:hover {
+    background-color: rgba(27, 28, 29);
+    background: linear-gradient(145deg, rgba(27, 28, 29), rgba(27, 28, 29));
+    border: 2px solid rgba(27, 28, 29);
+    border-radius: 20px;
+  }
   
   .li-benefits-three {
     background-color: rgba(24, 25, 27);
@@ -161,6 +175,13 @@ html {
     height: auto;
     padding: 0px;
   }
+
+  .li-benefits-three:hover {
+    background-color: rgba(27, 28, 29);
+    background: linear-gradient(145deg, rgba(27, 28, 29), rgba(27, 28, 29));
+    border: 2px solid rgba(27, 28, 29);
+    border-radius: 20px;
+  }
   
   .li-benefits-four {
     background-color: rgba(24, 25, 27);
@@ -169,6 +190,13 @@ html {
     max-width: 100%;
     height: auto;
     padding: 0px;
+  }
+
+  .li-benefits-four:hover {
+    background-color: rgba(27, 28, 29);
+    background: linear-gradient(145deg, rgba(27, 28, 29), rgba(27, 28, 29));
+    border: 2px solid rgba(27, 28, 29);
+    border-radius: 20px;
   }
   
   .box-li-benefits {
